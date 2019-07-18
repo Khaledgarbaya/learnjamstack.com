@@ -38,7 +38,7 @@ const Layout = ({ children }) => (
 
             <p>
               <a
-                href="https://github.com/Khaledgarbaya/learnjamstack"
+                href="https://github.com/Khaledgarbaya/learnjamstack.com"
                 className="font-bold no-underline text-white"
               >
                 GitHub
