@@ -17,14 +17,16 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+      <div className="flex flex-col font-sans min-h-screen text-grey-darkest" >
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
           {children}
         </div>
 
-        <footer className="bg-blue-darkest">
+        <footer className="bg-blue-darkest" style={{
+          backgroundImage: `url(charlie-brown.svg)`
+        }}>
           <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
             <p className="text-white">
               Created by{' '}
