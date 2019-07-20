@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Learn jamstack`,
+    description: `Learnjamstack | Learn how build apps that combine the performance and workflow benefits of static sites with the flexibility and power of server-driven sites.`,
+    author: `@khaled_garbaya`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
