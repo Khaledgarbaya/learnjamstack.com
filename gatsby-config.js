@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Learn jamstack`,
+    title: `Learn JAMstack`,
     description: `Learnjamstack | Learn how build apps that combine the performance and workflow benefits of static sites with the flexibility and power of server-driven sites.`,
     author: `@khaled_garbaya`,
   },

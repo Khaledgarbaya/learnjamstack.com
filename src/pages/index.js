@@ -8,7 +8,7 @@ import { Link, graphql } from 'gatsby'
 const IndexPage = ({data:{courses, tips, articles}}) => (
   <Layout>
     <SEO
-      title="Learn JAMStack"
+      title="A curated list of courses, articles, and tips about #JAMstack"
       keywords={[`gatsby`, `jamstack`, `react`, `netlify`]}
     />
 
