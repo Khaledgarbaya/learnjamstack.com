@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
         >
           <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
             <p className="text-white">
-              Created by{' '}
+              ©{' '}
               <a
                 href="https://khaledgarbaya.net"
                 className="font-bold no-underline text-white"
