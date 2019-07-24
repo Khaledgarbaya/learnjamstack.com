@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "learnjamstack",
+  "description": "learnjamstack.com website",
   "version": "2.0.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "Khaled Garbaya <khaledgarbaya@gmail.com>",
   "dependencies": {
     "gatsby": "2.13.39",
     "gatsby-image": "2.2.6",
