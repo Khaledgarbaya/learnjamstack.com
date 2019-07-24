@@ -26,12 +26,14 @@ const SubmitEntryPage = () => (
             className="block text-grey-dark text-sm font-bold mb-2"
             htmlFor="name"
           >
-            Name
+            Name <span className="text-red-dark">*</span>
           </label>
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-dark leading-tight focus:outline-none focus:shadow-outline"
             id="name"
+            name="name"
             type="text"
+            required
             placeholder="James L. Foster"
           />
         </div>
@@ -40,12 +42,14 @@ const SubmitEntryPage = () => (
             className="block text-grey-dark text-sm font-bold mb-2"
             htmlFor="email"
           >
-            Email
+            Email <span className="text-red-dark">*</span>
           </label>
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-dark leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="email"
+            name="email"
+            required
             placeholder="jam@stack.com"
           />
         </div>
@@ -54,12 +58,14 @@ const SubmitEntryPage = () => (
             className="block text-grey-dark text-sm font-bold mb-2"
             htmlFor="url"
           >
-            Resource URL
+            Resource URL <span className="text-red-dark">*</span>
           </label>
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-dark leading-tight focus:outline-none focus:shadow-outline"
             id="url"
             type="url"
+            email="url"
+            required
             placeholder="https://externaldomain.com/resource"
           />
         </div>
@@ -68,11 +74,13 @@ const SubmitEntryPage = () => (
             className="block text-grey-dark text-sm font-bold mb-2"
             htmlFor="description"
           >
-            Description
+            Description <span className="text-red-dark">*</span>
           </label>
           <textarea
             className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-dark leading-tight focus:outline-none focus:shadow-outline"
             id="description"
+            name="description"
+            required
             placeholder="some description"
           />
         </div>
