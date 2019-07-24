@@ -65,6 +65,7 @@ const SubmitEntryPage = () => (
             id="url"
             type="url"
             email="url"
+            name="url"
             required
             placeholder="https://externaldomain.com/resource"
           />
