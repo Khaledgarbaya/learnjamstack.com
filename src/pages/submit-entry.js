@@ -77,10 +77,7 @@ const SubmitEntryPage = () => (
           />
         </div>
         <div className="flex">
-          <button
-            className="bg-blue-dark hover:bg-blue-darker text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="button"
-          >
+          <button className="bg-blue-dark hover:bg-blue-darker text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             Submit
           </button>
         </div>
