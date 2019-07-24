@@ -20,8 +20,7 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "tailwindcss": "^0.7.3",
-    "tailwindcss-aspect-ratio": "^1.0.1",
-    "updtr": "^3.1.0"
+    "tailwindcss-aspect-ratio": "^1.0.1"
   },
   "keywords": [
     "gatsby",
