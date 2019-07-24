@@ -1,11 +1,23 @@
-import PropTypes from "prop-types";
-import React from "react";
-import SubscribeForm from "../components/subscribe-form"
+import PropTypes from 'prop-types'
+import React from 'react'
+import { Link } from 'gatsby'
+import SubscribeForm from '../components/subscribe-form'
 
 const Header = ({ siteTitle }) => (
-  <div className="bg-blue-darkest" style={{
-          backgroundImage: `url(charlie-brown.svg)`
-        }} >
+  <div
+    className="bg-blue-darkest"
+    style={{
+      backgroundImage: `url(charlie-brown.svg)`
+    }}
+  >
+    <nav className="container lg:max-w-screen-lg mx-auto flex flex-row-reverse p-4">
+      <Link
+        className="block no-underline text-white border-solid border-2 p-2"
+        to="/submit-entry"
+      >
+        Submit an entry <span className="text-blue-light ml-1">→</span>
+      </Link>
+    </nav>
     <div className="container lg:max-w-screen-lg mx-auto px-6 py-8 sm:py-16 md:py-24 text-white">
       <img
         src="/logo.svg"
@@ -26,14 +38,14 @@ const Header = ({ siteTitle }) => (
       </div>
     </div>
   </div>
-);
+)
 
 Header.propTypes = {
   siteTitle: PropTypes.string
-};
+}
 
 Header.defaultProps = {
   siteTitle: ``
-};
+}
 
-export default Header;
+export default Header
