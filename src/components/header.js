@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <div
     className="bg-blue-darkest"
     style={{
-      backgroundImage: `url(charlie-brown.svg)`
+      backgroundImage: `url(/charlie-brown.svg)`
     }}
   >
     <nav className="container lg:max-w-screen-lg mx-auto flex flex-row-reverse p-4">
