@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         Submit an entry <span className="text-blue-light ml-1">→</span>
       </Link>
     </nav>
-    <div className="container lg:max-w-screen-lg mx-auto px-6 py-8 sm:py-16 md:py-24 text-white">
+    <div className="container lg:max-w-screen-lg mx-auto px-6 text-white">
       <Link to="/">
         <img
           src="/logo.svg"
