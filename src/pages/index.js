@@ -85,21 +85,21 @@ const IndexPage = ({data:{courses, tips, articles}}) => (
 export default IndexPage
 export const pageQuery = graphql`
 {
-  courses: allContentfulJamStackEntry(filter: {category: {eq: "courses"}}) {
+  courses: allContentfulJamStackEntry(limit:6, filter: {category: {eq: "courses"}}) {
     edges {
       node {
         ...entryFields
       }
     }
   }
-  tips: allContentfulJamStackEntry(filter: {category: {eq: "tips"}}) {
+  tips: allContentfulJamStackEntry(limit: 6, filter: {category: {eq: "tips"}}) {
     edges {
       node {
         ...entryFields
       }
     }
   }
-  articles: allContentfulJamStackEntry(filter: {category: {eq: "articles"}}) {
+  articles: allContentfulJamStackEntry(limit: 6, filter: {category: {eq: "articles"}}) {
     edges {
       node {
         ...entryFields
