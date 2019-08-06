@@ -16,9 +16,8 @@ function SubscribeForm() {
         }}
       >
         <p className="text-lg sm:text-xl text-white font-semibold mb-4">
-          Never miss a single thing{" "}
           <span className="hidden sm:inline">
-            Receive the next one in your inbox!{" "}
+            No spam. Unsubscribe at any time. ✌️ !{" "}
           </span>{" "}
           <span className="text-blue-light ml-1">→</span>
         </p>
@@ -31,8 +30,8 @@ function SubscribeForm() {
             placeholder="Enter your email"
             required=""
           />
-          <button className="focus:outline-none focus:bg-blue sm:text-lg w-full sm:w-auto bg-blue-dark hover:bg-blue rounded sm:rounded-l-none uppercase text-white font-bold tracking-wide py-3 px-6 sm:py-4">
-            Subscribe
+          <button className="focus:outline-none focus:bg-blue sm:text-md w-full sm:w-auto bg-blue-dark hover:bg-blue rounded sm:rounded-l-none uppercase text-white font-bold tracking-wide py-3 px-6 sm:py-4">
+            Begin learning
           </button>
         </div>
       </form>
