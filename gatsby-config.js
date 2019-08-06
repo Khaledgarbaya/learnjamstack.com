@@ -44,5 +44,14 @@ module.exports = {
         purgeOnly: ['src/css/style.css'], // Purge only tailwind
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-145154358-1",
+        head: false,
+        anonymize: true,
+        siteSpeedSampleRate: 10,
+      },
+    },
   ],
 }
