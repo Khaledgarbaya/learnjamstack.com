@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, Link, graphql } from 'gatsby'
 
 import Header from './header'
 import '../css/style.css'
@@ -41,6 +41,14 @@ const Layout = ({ children }) => (
               </a>
             </p>
 
+            <p>
+              <Link
+                to="/contact"
+                className="font-bold no-underline text-white"
+              >
+                Contact
+              </Link>
+            </p>
             <p>
               <a
                 href="https://github.com/Khaledgarbaya/learnjamstack.com"

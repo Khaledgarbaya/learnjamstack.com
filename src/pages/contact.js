@@ -7,47 +7,42 @@ const ContactPage = () => (
   <Layout>
     <SEO
       title="Contact"
-      keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+      keywords={[`gatsby`, `jamstack`, `react`]}
     />
 
-    <form className="mx-auto md:w-1/2">
-      <p className="leading-loose mb-8">
-        Here is an example of a form built using Tailwind. Click{' '}
-        <a
-          href="https://tailwindcss.com/docs/examples/forms"
-          className="font-bold no-underline text-grey-darkest"
-        >
-          here
-        </a>{' '}
-        to see more examples.
-      </p>
-
+  <form className="mx-auto md:w-1/2"
+    method="post"
+    data-netlify
+  >
+    <input type="hidden" name="form-name" value="contact" />
       <label
         className="block font-bold mb-2 text-xs uppercase"
         htmlFor="first-name"
       >
-        First Name
+        Name
       </label>
 
       <input
         className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
         id="first-name"
         type="text"
-        placeholder="Bill"
+        name="name"
+        placeholder="Jon snow"
       />
 
       <label
         className="block font-bold mb-2 text-xs uppercase"
         htmlFor="last-name"
       >
-        Last Name
+        Email
       </label>
 
       <input
         className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
         id="last-name"
-        type="text"
-        placeholder="Murray"
+        type="email"
+        name="email"
+        placeholder="jon@website.com"
       />
 
       <label
@@ -61,9 +56,10 @@ const ContactPage = () => (
         className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
         placeholder="Say something..."
         rows="8"
+        name="message"
       />
 
-      <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white">
+      <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-blue-dark hover:bg-blue-darker font-bold px-6 py-3 rounded text-sm text-white">
         Submit
       </button>
     </form>
