@@ -43,6 +43,14 @@ const Layout = ({ children }) => (
 
             <p>
               <Link
+                to="/about"
+                className="font-bold no-underline text-white"
+              >
+                About
+              </Link>
+            </p>
+            <p>
+              <Link
                 to="/contact"
                 className="font-bold no-underline text-white"
               >
