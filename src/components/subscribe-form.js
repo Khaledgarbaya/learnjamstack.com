@@ -17,7 +17,7 @@ function SubscribeForm() {
       >
         <p className="text-lg sm:text-xl text-white font-semibold mb-4">
           <span className="hidden sm:inline">
-            No spam. Unsubscribe at any time. ✌️ !{" "}
+            Get a weekly Digest in your inbox{" "}
           </span>{" "}
           <span className="text-blue-light ml-1">→</span>
         </p>

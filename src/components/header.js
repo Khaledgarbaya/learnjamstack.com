@@ -29,12 +29,10 @@ const Header = ({ siteTitle }) => (
       </Link>
       <div className="mb-12">
         <h1 className="font-display font-semibold text-white text-4xl sm:text-5xl md:text-6xl mb-4 leading-none">
-          Static sites can do so much more!
+          Learn JAMstack!
         </h1>
         <p className="text-m sm:text-xl leading-normal max-w-lg">
-          Learn how build apps that combine the performance and workflow
-          benefits of static sites with the flexibility and power of
-          server-driven sites.
+          A curated list of courses, articles and tips about JAMstack
         </p>
         <SubscribeForm />
       </div>
