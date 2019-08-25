@@ -89,6 +89,7 @@ module.exports = {
                 return Object.assign(
                   {},
                   {
+                    title: edge.node.title,
                     description: !edge.node
                       .childContentfulJamStackEntryTextRichTextNode
                       ? ''
