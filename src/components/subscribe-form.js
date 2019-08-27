@@ -22,18 +22,20 @@ function SubscribeForm() {
         </span>{' '}
         <span className="text-blue-light ml-1">→</span>
       </p>
-      <div className="max-w-sm sm:flex">
-        <input type="hidden" value="1" name="embed" />
-        <input
-          type="email"
-          className="focus:outline-none block text-lg sm:text-xl w-full bg-white rounded sm:rounded-r-none px-6 py-3 sm:py-4 mb-2 sm:mb-0"
-          name="email_address"
-          placeholder="Enter your email"
-          required=""
-        />
-        <button className="focus:outline-none focus:bg-blue sm:text-md w-full sm:w-auto bg-blue-dark hover:bg-blue rounded sm:rounded-l-none uppercase text-white font-bold tracking-wide py-3 px-6 sm:py-4">
-          Begin learning
-        </button>
+      <div className="sm:focus-within:shadow-outline rounded-lg">
+        <div className="max-w-sm sm:flex sm:shadow sm:rounded-lg sm:overflow-hidden">
+          <input type="hidden" value="1" name="embed" />
+          <input
+            type="email"
+            className="shadow sm:shadow-none block w-full rounded-lg focus:border-indigo border border-transparent sm:rounded-r-none mb-4 sm:mb-0 text-black sm:flex-1 px-6 py-4 lg:py-5 focus:outline-none"
+            name="email_address"
+            placeholder="Enter your email"
+            required=""
+          />
+          <button className="text-sm shadow sm:shadow-none block w-full sm:w-auto rounded-lg sm:rounded-none focus:outline-none bg-blue-dark hover:bg-blue text-white text-shadow uppercase tracking-wide font-semibold px-6 py-4 lg:py-5">
+            Begin learning
+          </button>
+        </div>
       </div>
     </form>
   )
