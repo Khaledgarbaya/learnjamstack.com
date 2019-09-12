@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+
 import { StaticQuery, Link, graphql } from 'gatsby'
 
 import Header from './header'
@@ -27,7 +28,7 @@ const Layout = ({ children }) => (
         <footer
           className="bg-blue-darkest"
           style={{
-            backgroundImage: `url(charlie-brown.svg)`
+            backgroundImage: `url(/charlie-brown.svg)`
           }}
         >
           <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
@@ -42,18 +43,12 @@ const Layout = ({ children }) => (
             </p>
 
             <p>
-              <Link
-                to="/about"
-                className="font-bold no-underline text-white"
-              >
+              <Link to="/about" className="font-bold no-underline text-white">
                 About
               </Link>
             </p>
             <p>
-              <Link
-                to="/contact"
-                className="font-bold no-underline text-white"
-              >
+              <Link to="/contact" className="font-bold no-underline text-white">
                 Contact
               </Link>
             </p>
