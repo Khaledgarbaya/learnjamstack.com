@@ -244,6 +244,7 @@ const ReactAndGatsbyLandingPage = () => (
           </h2>
           <div className="text-2xl flex flex-wrap justify-center">
             <div className="p-10">
+              <h3 className="mb-4 text-center">The basic</h3>
               <ul className="mb-4 leading-normal">
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -395,6 +396,7 @@ const ReactAndGatsbyLandingPage = () => (
               </ul>
             </div>
             <div className="p-10">
+              <h3 className="mb-4 text-center">Putting everything together</h3>
               <ul>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -651,7 +653,7 @@ const ReactAndGatsbyLandingPage = () => (
                         </svg>
                       </span>
                       <span>
-                        All the <strong>in-depth video tutorials</strong>
+                        All the <strong>13 in-depth video tutorials</strong>
                       </span>
                     </li>
                     <li className="flex items-start mb-4">
@@ -711,7 +713,7 @@ const ReactAndGatsbyLandingPage = () => (
                       <span>
                         You can book{' '}
                         <strong>a free 30 min session with me</strong>, to help
-                        review your code
+                        you with the migration
                       </span>
                     </li>
                   </ul>
@@ -820,7 +822,7 @@ const ReactAndGatsbyLandingPage = () => (
                         </svg>
                       </span>
                       <span>
-                        All the <strong>in-depth video tutorials</strong>
+                        The first <strong>7 in-depth video tutorials</strong>
                       </span>
                     </li>
                   </ul>
@@ -1021,7 +1023,7 @@ const ReactAndGatsbyLandingPage = () => (
                         </svg>
                       </span>
                       <span>
-                        All the <strong>in-depth video tutorials</strong>
+                        All the <strong>13 in-depth video tutorials</strong>
                       </span>
                     </li>
                     <li className="flex items-start mb-4">
@@ -1189,7 +1191,7 @@ const ReactAndGatsbyLandingPage = () => (
                         </svg>
                       </span>
                       <span>
-                        All the <strong>in-depth video tutorials</strong>
+                        The first <strong>7 in-depth video tutorials</strong>
                       </span>
                     </li>
                   </ul>
