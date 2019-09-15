@@ -1,7 +1,6 @@
 import React from 'react'
 import SEO from '../components/seo'
 import LandingPageHeader from '../components/landing-page-header'
-
 import '../css/style.css'
 
 const ReactAndGatsbyLandingPage = () => (
