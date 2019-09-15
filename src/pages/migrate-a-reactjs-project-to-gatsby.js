@@ -1218,7 +1218,7 @@ const ReactAndGatsbyLandingPage = () => (
     <footer
       className="bg-blue-darkest"
       style={{
-        backgroundImage: `url(charlie-brown.svg)`
+        backgroundImage: `url(/charlie-brown.svg)`
       }}
     >
       <div className="max-w-xl mx-auto p-4 md:p-8 text-sm text-center">
