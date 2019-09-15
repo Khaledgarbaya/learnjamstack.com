@@ -10,6 +10,7 @@ const ReactAndGatsbyLandingPage = () => (
         `gatsby`,
         `jamstack`,
         `react`,
+        `migration`,
         `create-react-app`,
         `CRA`,
         `course`
