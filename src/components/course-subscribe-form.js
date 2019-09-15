@@ -20,9 +20,8 @@ function SubscribeForm() {
         <span className="block text-white leading-normal text-center md:text-left text-base xl:text-lg mb-6">
           Sign up for our newsletter to get{' '}
           <span className="text-blue-light font-bold">
-            two free lesson previews
-          </span>{' '}
-          on React routers vs Gatsby Pages.
+            a free preview of the course
+          </span>
         </span>
       </p>
       <div className="sm:focus-within:shadow-outline font-body rounded-lg">
@@ -38,6 +37,9 @@ function SubscribeForm() {
           <button className="text-sm shadow sm:shadow-none block w-full sm:w-auto rounded-lg sm:rounded-none focus:outline-none bg-blue-dark hover:bg-blue text-white text-shadow uppercase tracking-wide font-semibold px-6 py-4 lg:py-5">
             Get the previews
           </button>
+        </div>
+        <div class="text-lg mt-6 text-center md:text-left">
+          <p>Or <a className="font-semibold no-underline border-blue-lighter border-b-4 text-white" href="#get-migrating-from-cra-to-gatsby">buy now</a> if you're already convinced!</p>
         </div>
       </div>
     </form>
