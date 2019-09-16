@@ -6,7 +6,7 @@ import '../css/style.css'
 const ReactAndGatsbyLandingPage = () => (
   <div>
     <SEO
-      title="Learn JAMStack | Learn how to migrate a reactjs to Gatsby!"
+      title="Learn JAMStack | Learn how to migrate a reactjs to GatsbyJS!"
       keywords={[
         `gatsby`,
         `jamstack`,
@@ -21,12 +21,12 @@ const ReactAndGatsbyLandingPage = () => (
     <div className="font-body text-lg">
       <div className="container max-w-lg max-w-lg mx-auto mb-10 p-6 border-b border-dashed">
         <h2 className="font-heading text-black text-4xl font-display font-semibold leading-tight mb-8">
-          "Gatsbyjs can be a create-react-app replacement"
+          "GatsbyJS can be a create-react-app replacement"
         </h2>
         <p className="mb-4 leading-normal">
-          Gatsbyjs and create-react-app are similar in that can help you set up
+          GatsbyJS and create-react-app are similar in that can help you set up
           an application and removes much of the configuration headache.
-          However, Gatsby offers more like backed in performance optimizations
+          However, GatsbyJS offers more like backed in performance optimizations
           and static rendering without the need for a server and a thriving
           ecosystem of plugins.
         </p>
@@ -34,13 +34,13 @@ const ReactAndGatsbyLandingPage = () => (
 
       <div className="container max-w-lg  mx-auto mb-10 p-6 border-b border-dashed">
         <h2 className="font-heading text-black text-4xl font-display font-semibold leading-tight mb-5 py-2">
-          Why Migrating to Gatsbyjs?
+          Why Migrating to GatsbyJS?
         </h2>
         <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight mb-5 py-2">
           Zero config performance optimazations
         </h3>
         <p className="mb-4 leading-normal">
-          Gatsbyjs provides code and data splitting out-of-the-box. It loads
+          GatsbyJS provides code and data splitting out-of-the-box. It loads
           your critical HTML and CSS, then prefetches resources for other pages.
           That way, clicking around feels so fast. Additionally, it offers
           things like:
@@ -63,7 +63,7 @@ const ReactAndGatsbyLandingPage = () => (
           Server side rendering without a server
         </h3>
         <p className="mb-4 leading-normal">
-          At build time, Gatsby takes all your react component with all the
+          At build time, GatsbyJS takes all your react component with all the
           needed data and generates static HTML, JavaScript, and CSS files. Once
           the website is fully loaded it rehydrates it into a fully fledge React
           PWA
@@ -72,7 +72,7 @@ const ReactAndGatsbyLandingPage = () => (
           A unified Data layer using GraphQL
         </h3>
         <p className="mb-4 leading-normal">
-          Gatsby unifies all data sources into one layer using{' '}
+          GatsbyJS unifies all data sources into one layer using{' '}
           <a
             className="font-semibold no-underline border-blue-lighter border-b-4 text-black"
             href="https://graphql.org/learn/"
@@ -84,7 +84,7 @@ const ReactAndGatsbyLandingPage = () => (
           A rich plugin ecosystem
         </h3>
         <p className="mb-4 leading-normal">
-          With Gatsby's flexible plugin system, it lets you bring your data
+          With GatsbyJS's flexible plugin system, it lets you bring your data
           source. From anywhere like CMS, database, or filesystem and makes it
           queriable through GraphQL.
         </p>
@@ -96,18 +96,18 @@ const ReactAndGatsbyLandingPage = () => (
         <div>
           <p className="mb-4 leading-normal">
             This course Guides you to port your existing create-react-app
-            project to Gatsby by reusing as much code from the project as you
+            project to GatsbyJS by reusing as much code from the project as you
             can. It explains the difference between the two frameworks. The
-            course also helps you to understand Gatsbyjs and how it works, so if
-            you want to learn Gatsbyjs, this course is for you. If this is your
+            course also helps you to understand GatsbyJS and how it works, so if
+            you want to learn GatsbyJS, this course is for you. If this is your
             first working with React in general, then this course might not be a
             good fit for you.
           </p>
           <ul>
             <li>Front End devs looking to understand the JAMstack</li>
             <li>JS Developers looking to advance in their career</li>
-            <li>Wordpress Developer moving to Gatsby</li>
-            <li>Anyone who wants to get better at Gatsby and React</li>
+            <li>Wordpress Developer moving to GatsbyJS</li>
+            <li>Anyone who wants to get better at GatsbyJS and React</li>
           </ul>
         </div>
       </div>
@@ -118,7 +118,7 @@ const ReactAndGatsbyLandingPage = () => (
         <div>
           <p className="mb-4 leading-normal">
             This course will guide through the process of porting a
-            create-react-app to Gatsbyjs. It will cover topics like.
+            create-react-app to GatsbyJS. It will cover topics like.
           </p>
 
           <ul className="mb-4 leading-normal">
@@ -143,7 +143,7 @@ const ReactAndGatsbyLandingPage = () => (
               </span>
               <span>
                 Difference in project structure between create-react-app and
-                Gatsbyjs
+                GatsbyJS
               </span>
             </li>
             <li className="flex items-start mb-4">
@@ -166,7 +166,7 @@ const ReactAndGatsbyLandingPage = () => (
                 </svg>
               </span>
               <span>
-                Use Gatsby plugins to inject static data into your app instead
+                Use GatsbyJS plugins to inject static data into your app instead
                 of calling service directly
               </span>
             </li>
@@ -189,7 +189,7 @@ const ReactAndGatsbyLandingPage = () => (
                   </g>
                 </svg>
               </span>
-              <span>Transform React Route Components to Gatsby pages</span>
+              <span>Transform React Route Components to GatsbyJS pages</span>
             </li>
             <li className="flex items-start mb-4">
               <span className="mr-4 mt-1">
@@ -211,7 +211,7 @@ const ReactAndGatsbyLandingPage = () => (
                 </svg>
               </span>
               <span>
-                How to use React features like Context and hooks with Gatsby
+                How to use React features like Context and hooks with GatsbyJS
               </span>
             </li>
             <li className="flex items-start mb-4">
@@ -271,7 +271,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Bootstrap the simplest Gatsbyjs project</span>
+                  <span>Bootstrap the simplest GatsbyJS project</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -292,7 +292,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Port React component to Gatsby pages</span>
+                  <span>Port React component to GatsbyJS pages</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -334,7 +334,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Routing in Gatsby</span>
+                  <span>Routing in GatsbyJS</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -355,7 +355,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Handling state in Gatsby</span>
+                  <span>Handling state in GatsbyJS</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -376,7 +376,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Handling Environment Variables in Gatsby</span>
+                  <span>Handling Environment Variables in GatsbyJS</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -444,7 +444,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Wrap all Gatsby Component in a Context</span>
+                  <span>Wrap all GatsbyJS Component in a Context</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -465,7 +465,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Use React hooks with Gatsby</span>
+                  <span>Use React hooks with GatsbyJS</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -486,7 +486,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Load dynamic graphql data in Gatsby</span>
+                  <span>Load dynamic graphql data in GatsbyJS</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -507,7 +507,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Use Gatsbyjs without GraphQL</span>
+                  <span>Use GatsbyJS without GraphQL</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -528,7 +528,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Build an deploy a Gatsbyjs project</span>
+                  <span>Build an deploy a GatsbyJS project</span>
                 </li>
               </ul>
             </div>
@@ -552,7 +552,7 @@ const ReactAndGatsbyLandingPage = () => (
               >
                 Khaled Garbaya
               </a>{' '}
-              I am a long-time contributor to Gatsbyjs. I love the framework and
+              I am a long-time contributor to GatsbyJS. I love the framework and
               been working with it since pre v1 version. I work on a variety of
               projects with different frameworks and environments, not only on
               the frontend and browsers but also on the server-side,
@@ -582,7 +582,7 @@ const ReactAndGatsbyLandingPage = () => (
         <div className="max-w-lg mx-auto px-8 text-xl py-16">
           <div className="text-center">
             <h2 className="font-heading text-4xl md:text-6xl text-white font-bold mt-0 mb-0">
-              Get Migrating CRA app to Gatsbyjs
+              Get Migrating CRA app to GatsbyJS
             </h2>
             <p className="font-heading text-2xl md:text-3xl text-blue-light font-semibold">
               Choose the package that works for you.
