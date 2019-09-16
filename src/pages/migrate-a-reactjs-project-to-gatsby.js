@@ -556,7 +556,7 @@ const ReactAndGatsbyLandingPage = () => (
               been working with it since pre v1 version. I work on a variety of
               projects with different frameworks and environments, not only on
               the frontend and browsers but also on the server-side,
-              command-line tools and other environments capable of running
+              command-line tools, and other environments capable of running
               JavaScript. I love to share my knowledge through e-books and
               videos. you can check out some of my work{' '}
               <a
