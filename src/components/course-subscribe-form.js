@@ -39,7 +39,7 @@ function SubscribeForm() {
           </button>
         </div>
         <div class="text-lg mt-6 text-center md:text-left">
-          <p>Or <a className="font-semibold no-underline border-blue-lighter border-b-4 text-white" href="#get-migrating-from-cra-to-gatsby">buy now</a> if you're already convinced!</p>
+          <p>Or <a className="font-semibold no-underline border-blue-light border-b-4 text-white" href="#get-migrating-from-cra-to-gatsby">buy now</a> if you're already convinced!</p>
         </div>
       </div>
     </form>

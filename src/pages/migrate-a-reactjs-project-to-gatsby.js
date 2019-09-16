@@ -25,10 +25,10 @@ const ReactAndGatsbyLandingPage = () => (
         </h2>
         <p className="mb-4 leading-normal">
           Gatsbyjs and create-react-app are similar in that can help you set up
-          application and removes much of the configuration headache. However,
-          Gatsby offers more like backed in performance optimizations and static
-          rendering without the need for a server and a thriving ecosystem of
-          plugins.
+          an application and removes much of the configuration headache.
+          However, Gatsby offers more like backed in performance optimizations
+          and static rendering without the need for a server and a thriving
+          ecosystem of plugins.
         </p>
       </div>
 
@@ -41,53 +41,51 @@ const ReactAndGatsbyLandingPage = () => (
         </h3>
         <p className="mb-4 leading-normal">
           Gatsbyjs provides code and data splitting out-of-the-box. It loads
-          first your critical HTML and CSS. Once that loaded it prefetches
-          resources for other pages. That way clicking around feels so fast.
-          Aditionaly it offers things like:
+          your critical HTML and CSS, then prefetches resources for other pages.
+          That way, clicking around feels so fast. Additionally, it offers
+          things like:
         </p>
         <ul>
           <li className="mb-3 leading-normal">
-            gatsby-link uses an intersection observer to preload linked pages
-            when they appear in the viewport, making them feel like they load
-            instantly
+            <strong>gatsby-link</strong> uses an intersection observer to
+            preload linked pages when they appear in the viewport, making them
+            feel like they load instantly
           </li>
           <li className="mb-3 leading-normal">
-            gatsby-image will create optimized versions of your images in
-            different sizes, loading a smaller, optimized version of an image
-            and replacing it with a higher resolution version when loading has
-            finished. It also uses an intersection observer to cheaply lazy load
-            images.
+            <strong>gatsby-image</strong> creates optimized versions of your
+            images in Different sizes, loading a smaller, optimized version of
+            an image and replacing it with a higher resolution version when
+            loading has finished. It also uses an intersection observer to
+            cheaply lazy load images.
           </li>
         </ul>
         <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight mb-5 py-2">
           Server side rendering without a server
         </h3>
         <p className="mb-4 leading-normal">
-          Gatsbyjs uses React component as a view layer so you can share and
-          reuse them across pages/projects. Once it loads the page's javascript
-          code, your website becomes a full React app.
+          At build time, Gatsby takes all your react component with all the
+          needed data and generates static HTML, JavaScript, and CSS files. Once
+          the website is fully loaded it rehydrates it into a fully fledge React
+          PWA
         </p>
         <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight mb-5 py-2">
           A unified Data layer using GraphQL
         </h3>
         <p className="mb-4 leading-normal">
-          Gatsby.js uses{' '}
+          Gatsby unifies all data sources into one layer using{' '}
           <a
             className="font-semibold no-underline border-blue-lighter border-b-4 text-black"
             href="https://graphql.org/learn/"
           >
             GraphQL
           </a>{' '}
-          to share data across pages. You only get the data you need in the
-          page. At build time Gatsby will resolve the query and embed it in your
-          page.
         </p>
         <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight mb-5">
           A rich plugin ecosystem
         </h3>
         <p className="mb-4 leading-normal">
-          With Gatsby's flexible plugin system it let's you bring your own data
-          source. From anywhere like CMS, database or filesystem and make
+          With Gatsby's flexible plugin system, it lets you bring your data
+          source. From anywhere like CMS, database, or filesystem and makes it
           queriable through GraphQL.
         </p>
       </div>
@@ -97,13 +95,13 @@ const ReactAndGatsbyLandingPage = () => (
         </h2>
         <div>
           <p className="mb-4 leading-normal">
-            This course is will help to port your existing create-react-app
+            This course Guides you to port your existing create-react-app
             project to Gatsby by reusing as much code from the project as you
-            can. It will also explain the difference between the two frameworks.
-            The course also will help you to understand Gatsbyjs and how it
-            works, so if you want to learn Gatsbyjs this course is for you. If
-            you this is your first working with React in general then this
-            course might not be a good fit for you.
+            can. It explains the difference between the two frameworks. The
+            course also helps you to understand Gatsbyjs and how it works, so if
+            you want to learn Gatsbyjs, this course is for you. If this is your
+            first working with React in general, then this course might not be a
+            good fit for you.
           </p>
           <ul>
             <li>Front End devs looking to understand the JAMstack</li>
@@ -543,7 +541,7 @@ const ReactAndGatsbyLandingPage = () => (
         </h2>
         <div className="flex flex-wrap imtes-center justify-center">
           <div className="sm:w-1/3 w-full">
-            <img src="/khaled-garbaya.png" alt="Khaled Garbaya's avatar"/>
+            <img src="/khaled-garbaya.png" alt="Khaled Garbaya's avatar" />
           </div>
           <div className="sm:w-2/3 w-full p-4">
             <p className="mb-4 leading-normal">
@@ -554,13 +552,13 @@ const ReactAndGatsbyLandingPage = () => (
               >
                 Khaled Garbaya
               </a>{' '}
-              I am a long time contributor to Gatsbyjs. I love the framework and
+              I am a long-time contributor to Gatsbyjs. I love the framework and
               been working with it since pre v1 version. I work on a variety of
-              projects with different frameworks and environments, not only on the
-              frontend and browsers but also on the server side, command line
-              tools and other environments capable of running JavaScript. I love
-              to share my knowledge through e-books and videos. you can check out
-              some of my work{' '}
+              projects with different frameworks and environments, not only on
+              the frontend and browsers but also on the server-side,
+              command-line tools and other environments capable of running
+              JavaScript. I love to share my knowledge through e-books and
+              videos. you can check out some of my work{' '}
               <a
                 className="font-semibold no-underline border-blue-lighter border-b-4 text-black"
                 href="https://k4d.dev/courses/"
