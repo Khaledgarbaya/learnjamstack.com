@@ -723,9 +723,8 @@ const ReactAndGatsbyLandingPage = () => (
                         </svg>
                       </span>
                       <span>
-                        You can book{' '}
-                        <strong>a free 30 min session with me</strong>, to help
-                        you with the migration
+                        Get invited to learnjamstack{' '}
+                        <strong>slack channel</strong> to share your experience with other members
                       </span>
                     </li>
                   </ul>
