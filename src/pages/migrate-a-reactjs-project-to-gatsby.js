@@ -693,9 +693,7 @@ const ReactAndGatsbyLandingPage = () => (
                         </svg>
                       </span>
                       <span>
-                        <strong>
-                          Complete source code for the example project
-                        </strong>
+                        <strong>Complete source code</strong> for the example project
                       </span>
                     </li>
                     <li className="flex items-start mb-4">

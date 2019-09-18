@@ -19,6 +19,12 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+        <div className="bg-blue py-4 text-lg md:text-xl font-semibold text-white">
+          <div className="container lg:max-w-screen-lg mx-auto px-6">
+            <span className="block mb-2 md:mb-0 md:inline md:mr-2">We just released a course!</span>
+            <Link to="/migrate-a-reactjs-project-to-gatsby" className="font-bold text-white underline">Learn more about it here →</Link>
+          </div>
+        </div>
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
