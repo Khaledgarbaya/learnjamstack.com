@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
     render={data => (
       <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
         <div className="bg-blue py-4 text-lg md:text-xl font-semibold text-white">
-          <div className="container lg:max-w-screen-lg mx-auto px-6">
+          <div className="container lg:max-w-xl mx-auto px-6">
             <span className="block mb-2 md:mb-0 md:inline md:mr-2">We just released a course!</span>
             <Link to="/migrate-a-reactjs-project-to-gatsby" className="font-bold text-white underline">Learn more about it here →</Link>
           </div>
@@ -57,14 +57,6 @@ const Layout = ({ children }) => (
               <Link to="/contact" className="font-bold no-underline text-white">
                 Contact
               </Link>
-            </p>
-            <p>
-              <a
-                href="https://github.com/Khaledgarbaya/learnjamstack.com"
-                className="font-bold no-underline text-white"
-              >
-                GitHub
-              </a>
             </p>
           </div>
         </footer>
