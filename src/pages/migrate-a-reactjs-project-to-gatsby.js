@@ -36,7 +36,225 @@ const ReactAndGatsbyLandingPage = () => (
         <h2 className="font-heading text-black text-4xl font-display font-semibold leading-tight mb-5 py-2">
           Why Migrating to GatsbyJS?
         </h2>
-        <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight mb-5 py-2">
+        <table className="shadow-md rounded max-w-l mx-auto w-full ">
+          <thead>
+            <tr className="bg-grey-light">
+              <th className="w-32 sm:w-64 sm:p-10 p-4"></th>
+              <th className="w-32 sm:w-64 sm:p-10 p-4">Gatsby</th>
+              <th className="sm:p-64">Create-React-App</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                Webpack support
+              </td>
+              <td className="py-4 text-center px-6 border-b border-grey-light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                Hot Reloading
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                Static Rendering
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                {' '}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                Code and data splitting
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                {' '}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                SEO Friendly
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                {' '}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                Plugins Support
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                {' '}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                Unified Data Layer
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <path
+                    class="secondary"
+                    d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
+                  />
+                </svg>
+              </td>
+              <td className="py-4 px-6 border-b border-grey-light text-center">
+                {' '}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="sm:w-12 w-8"
+                >
+                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
+                </svg>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight my-5 py-2">
           Zero config performance optimazations
         </h3>
         <p className="mb-4 leading-normal">
@@ -97,11 +315,11 @@ const ReactAndGatsbyLandingPage = () => (
           <p className="mb-4 leading-normal">
             This course Guides you to port your existing create-react-app
             project to GatsbyJS by reusing as much code from the project as you
-            can. It explains the difference between the two frameworks. The
-            course also helps you to understand GatsbyJS and how it works, so if
-            you want to learn GatsbyJS, this course is for you. If this is your
-            first working with React in general, then this course might not be a
-            good fit for you.
+            can. It explains the difference between the two. The course also
+            helps you to understand GatsbyJS and how it works, so if you want to
+            learn GatsbyJS, this course is for you. If this is your first
+            working with React in general, then this course might not be a good
+            fit for you.
           </p>
           <ul>
             <li>Front End devs looking to understand the JAMstack</li>
@@ -693,7 +911,8 @@ const ReactAndGatsbyLandingPage = () => (
                         </svg>
                       </span>
                       <span>
-                        <strong>Complete source code</strong> for the example project
+                        <strong>Complete source code</strong> for the example
+                        project
                       </span>
                     </li>
                     <li className="flex items-start mb-4">
@@ -722,7 +941,8 @@ const ReactAndGatsbyLandingPage = () => (
                       </span>
                       <span>
                         Get invited to learnjamstack{' '}
-                        <strong>slack channel</strong> to share your experience with other members
+                        <strong>slack channel</strong> to share your experience
+                        with other members
                       </span>
                     </li>
                   </ul>
