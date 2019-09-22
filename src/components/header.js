@@ -3,10 +3,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import SubscribeForm from '../components/subscribe-form'
 import CarbonAds from 'react-carbon-ads'
-<<<<<<< HEAD
 const isBrowser = typeof window !== 'undefined'
-=======
->>>>>>> Add Carbon Ads
 
 const Header = ({ siteTitle }) => (
   <div
@@ -33,13 +30,9 @@ const Header = ({ siteTitle }) => (
             alt="A JAM sandiwch wearing glasses"
           />
         </Link>
-<<<<<<< HEAD
         {isBrowser && (
           <CarbonAds carbonUrl="https://cdn.carbonads.com/carbon.js?serve=CE7DC2QY&placement=learnjamstackcom" />
         )}
-=======
-        <CarbonAds carbonUrl="https://cdn.carbonads.com/carbon.js?serve=CE7DC2QY&placement=learnjamstackcom" />
->>>>>>> Add Carbon Ads
       </div>
       <div className="mb-12">
         <h1 className="font-display font-semibold text-white text-4xl sm:text-5xl md:text-6xl mb-4 leading-none">
