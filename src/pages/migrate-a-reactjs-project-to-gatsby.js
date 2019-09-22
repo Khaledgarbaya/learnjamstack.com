@@ -167,7 +167,7 @@ const ReactAndGatsbyLandingPage = () => (
             </tr>
             <tr>
               <td className="py-4 px-6 border-b border-grey-light text-center">
-                SEO Friendly
+                SEO Friendly App
               </td>
               <td className="py-4 px-6 border-b border-grey-light text-center">
                 <svg
