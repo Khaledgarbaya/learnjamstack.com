@@ -3,13 +3,13 @@ import React from 'react'
 function SubscribeForm() {
   return (
     <form
-      action="https://app.convertkit.com/forms/1036024/subscriptions"
+      action="https://app.convertkit.com/forms/1067763/subscriptions"
       method="post"
       target="popupwindow"
       onSubmit={e => {
         e.preventDefault()
         window.open(
-          'https://pages.convertkit.com/55c3df4a07/8e001d610f',
+          'https://learnjamstack.ck.page/5776608d82',
           'popupwindow',
           'scrollbars=yes,width=800,height=600'
         )
