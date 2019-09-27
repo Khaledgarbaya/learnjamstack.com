@@ -9,6 +9,7 @@ const ReactAndGatsbyLandingPage = () => (
   <div>
     <SEO
       title="Learn JAMStack | Learn how to migrate a reactjs to GatsbyJS!"
+      description="Learn how to migrate a create-react-app project to Gatsby!"
       keywords={[
         `gatsby`,
         `jamstack`,
