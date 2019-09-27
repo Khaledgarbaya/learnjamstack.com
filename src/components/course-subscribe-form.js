@@ -18,10 +18,9 @@ function SubscribeForm() {
     >
       <p className="text-lg font-body sm:text-xl text-white mb-4">
         <span className="block text-white leading-normal text-center md:text-left text-base xl:text-lg mb-6">
-          Sign up for our newsletter to get{' '}
-          <span className="text-blue-light font-bold">
-            a free preview of the course
-          </span>
+          Sign up for our newsletter to get notified when the course is launched{' '}
+          and get{' '}
+          <span className="text-blue-light font-bold">a free preview</span>
         </span>
       </p>
       <div className="sm:focus-within:shadow-outline font-body rounded-lg">
@@ -35,11 +34,8 @@ function SubscribeForm() {
             required=""
           />
           <button className="text-sm shadow sm:shadow-none block w-full sm:w-auto rounded-lg sm:rounded-none focus:outline-none bg-blue-dark hover:bg-blue text-white text-shadow uppercase tracking-wide font-semibold px-6 py-4 lg:py-5">
-            Get the previews
+            Sign up
           </button>
-        </div>
-        <div className="text-lg mt-6 text-center md:text-left">
-          <p>Or <a className="font-semibold no-underline border-blue-light border-b-4 text-white" href="#get-migrating-from-cra-to-gatsby">buy now</a> if you're already convinced!</p>
         </div>
       </div>
     </form>
