@@ -3,27 +3,28 @@ import React from 'react'
 function SubscribeForm() {
   return (
     <form
-      action="https://app.convertkit.com/forms/1036024/subscriptions"
+      action="https://app.convertkit.com/forms/1067763/subscriptions"
       method="post"
       target="popupwindow"
       onSubmit={e => {
         e.preventDefault()
         window.open(
-          'https://pages.convertkit.com/55c3df4a07/8e001d610f',
+          'https://learnjamstack.ck.page/5776608d82',
           'popupwindow',
           'scrollbars=yes,width=800,height=600'
         )
         return true
       }}
     >
-      <p className="text-lg font-body sm:text-xl text-white font-semibold mb-4">
-        <span className="hidden sm:inline">
-          Get a weekly Digest in your inbox{' '}
-        </span>{' '}
-        <span className="text-blue-light ml-1">→</span>
+      <p className="text-lg font-body sm:text-xl text-white mb-4">
+        <span className="block text-white leading-normal text-center md:text-left text-base xl:text-lg mb-6">
+          Sign up for our newsletter to get notified when the course is launched{' '}
+          and get{' '}
+          <span className="text-blue-light font-bold">a free preview</span>
+        </span>
       </p>
-      <div className="sm:focus-within:shadow-outline rounded-lg">
-        <div className="max-w-sm sm:flex sm:shadow sm:rounded-lg sm:overflow-hidden">
+      <div className="sm:focus-within:shadow-outline font-body rounded-lg">
+        <div className="max-w-sm sm:flex font-semibold sm:shadow sm:rounded-lg sm:overflow-hidden">
           <input type="hidden" value="1" name="embed" />
           <input
             type="email"
@@ -33,7 +34,7 @@ function SubscribeForm() {
             required=""
           />
           <button className="text-sm shadow sm:shadow-none block w-full sm:w-auto rounded-lg sm:rounded-none focus:outline-none bg-blue-dark hover:bg-blue text-white text-shadow uppercase tracking-wide font-semibold px-6 py-4 lg:py-5">
-            Begin learning
+            Sign up
           </button>
         </div>
       </div>

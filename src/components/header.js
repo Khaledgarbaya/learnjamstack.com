@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       backgroundImage: `url(/charlie-brown.svg)`
     }}
   >
-    <nav className="container lg:max-w-screen-lg mx-auto flex flex-row-reverse p-4">
+    <nav className="container lg:max-w-xl mx-auto flex flex-row-reverse p-4">
       <Link
         className="block no-underline text-white border-solid border-2 p-2"
         to="/submit-entry"
