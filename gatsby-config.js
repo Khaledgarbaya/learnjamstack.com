@@ -1,6 +1,6 @@
 const {
   documentToPlainTextString
-} = require('@contentful/rich-text-plain-text-renderer')
+} = require("@contentful/rich-text-plain-text-renderer");
 
 module.exports = {
   siteMetadata: {
@@ -11,6 +11,15 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-fathom",
+      options: {
+        // Fathom server URL. Defaults to `cdn.usefathom.com`
+        trackingUrl: "cdn.usefathom.com",
+        // Unique site id
+        siteId: "IPTDFPSL"
+      }
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -42,10 +51,10 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
     {
-      resolve: 'gatsby-plugin-purgecss',
+      resolve: "gatsby-plugin-purgecss",
       options: {
         tailwind: true,
-        purgeOnly: ['src/css/style.css'] // Purge only tailwind
+        purgeOnly: ["src/css/style.css"] // Purge only tailwind
       }
     },
     {
@@ -92,7 +101,7 @@ module.exports = {
                     title: edge.node.title,
                     description: !edge.node
                       .childContentfulJamStackEntryTextRichTextNode
-                      ? ''
+                      ? ""
                       : documentToPlainTextString(
                           edge.node.childContentfulJamStackEntryTextRichTextNode
                             .json
@@ -101,11 +110,11 @@ module.exports = {
                     url: edge.node.externalLink,
                     guid: edge.node.id
                   }
-                )
-              })
+                );
+              });
             },
-            output: 'feed.xml',
-            title: 'Learn JAMstack RSS Feed'
+            output: "feed.xml",
+            title: "Learn JAMstack RSS Feed"
           }
         ]
       }
@@ -113,11 +122,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-145154358-1',
+        trackingId: "UA-145154358-1",
         head: false,
         anonymize: true,
         siteSpeedSampleRate: 10
       }
     }
   ]
-}
+};
