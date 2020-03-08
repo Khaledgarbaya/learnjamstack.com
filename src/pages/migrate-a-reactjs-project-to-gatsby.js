@@ -40,7 +40,10 @@ const ReactAndGatsbyLandingPage = () => (
         content="https://images.ctfassets.net/ka0lider8v0h/24afcjZf48FAB6dXS5rSZy/121feb35fac9897954e3775e8543eca0/cra-vs-gatsby.png"
       />
 
-      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+        property="twitter:card"
+        content="summary_large_image"
+      />
       <meta
         property="twitter:url"
         content="https://learnjamstack.com/migrate-a-reactjs-project-to-gatsby/"
@@ -61,11 +64,13 @@ const ReactAndGatsbyLandingPage = () => (
           "GatsbyJS can be a create-react-app replacement"
         </h2>
         <p className="mb-4 leading-normal">
-          GatsbyJS and create-react-app are similar in that can help you set up
-          an application and removes much of the configuration headache.
-          However, GatsbyJS offers more like backed in performance optimizations
-          and static rendering without the need for a server and a thriving
-          ecosystem of plugins.
+          GatsbyJS and create-react-app are similar in that
+          can help you set up an application and removes
+          much of the configuration headache. However,
+          GatsbyJS offers more like backed in performance
+          optimizations and static rendering without the
+          need for a server and a thriving ecosystem of
+          plugins.
         </p>
       </div>
 
@@ -77,7 +82,9 @@ const ReactAndGatsbyLandingPage = () => (
           <thead>
             <tr className="bg-grey-light">
               <th className="w-32 sm:w-64 sm:p-10 p-4"></th>
-              <th className="w-32 sm:w-64 sm:p-10 p-4">Gatsby</th>
+              <th className="w-32 sm:w-64 sm:p-10 p-4">
+                Gatsby
+              </th>
               <th className="sm:p-64">Create-React-App</th>
             </tr>
           </thead>
@@ -92,7 +99,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -105,7 +117,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -123,7 +140,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -136,7 +158,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -154,7 +181,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -168,7 +200,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#ef5753"
+                  />
                   <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
                 </svg>
               </td>
@@ -183,7 +220,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -197,7 +239,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#ef5753"
+                  />
                   <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
                 </svg>
               </td>
@@ -212,7 +259,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -226,7 +278,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#ef5753"
+                  />
                   <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
                 </svg>
               </td>
@@ -241,7 +298,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -255,7 +317,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#ef5753"
+                  />
                   <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
                 </svg>
               </td>
@@ -270,7 +337,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#1f9d55" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#1f9d55"
+                  />
                   <path
                     class="secondary"
                     d="M10 14.59l6.3-6.3a1 1 0 0 1 1.4 1.42l-7 7a1 1 0 0 1-1.4 0l-3-3a1 1 0 0 1 1.4-1.42l2.3 2.3z"
@@ -284,7 +356,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 24 24"
                   className="sm:w-12 w-8"
                 >
-                  <circle cx="12" cy="12" r="10" fill="#ef5753" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    fill="#ef5753"
+                  />
                   <path d="M13.41 12l2.83 2.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 1 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12z" />
                 </svg>
               </td>
@@ -295,39 +372,45 @@ const ReactAndGatsbyLandingPage = () => (
           Zero config performance optimazations
         </h3>
         <p className="mb-4 leading-normal">
-          GatsbyJS provides code and data splitting out-of-the-box. It loads
-          your critical HTML and CSS, then prefetches resources for other pages.
-          That way, clicking around feels so fast. Additionally, it offers
-          things like:
+          GatsbyJS provides code and data splitting
+          out-of-the-box. It loads your critical HTML and
+          CSS, then prefetches resources for other pages.
+          That way, clicking around feels so fast.
+          Additionally, it offers things like:
         </p>
         <ul>
           <li className="mb-3 leading-normal">
-            <strong>gatsby-link</strong> uses an intersection observer to
-            preload linked pages when they appear in the viewport, making them
+            <strong>gatsby-link</strong> uses an
+            intersection observer to preload linked pages
+            when they appear in the viewport, making them
             feel like they load instantly
           </li>
           <li className="mb-3 leading-normal">
-            <strong>gatsby-image</strong> creates optimized versions of your
-            images in Different sizes, loading a smaller, optimized version of
-            an image and replacing it with a higher resolution version when
-            loading has finished. It also uses an intersection observer to
-            cheaply lazy load images.
+            <strong>gatsby-image</strong> creates optimized
+            versions of your images in Different sizes,
+            loading a smaller, optimized version of an image
+            and replacing it with a higher resolution
+            version when loading has finished. It also uses
+            an intersection observer to cheaply lazy load
+            images.
           </li>
         </ul>
         <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight mb-5 py-2">
           Server side rendering without a server
         </h3>
         <p className="mb-4 leading-normal">
-          At build time, GatsbyJS takes all your react component with all the
-          needed data and generates static HTML, JavaScript, and CSS files. Once
-          the website is fully loaded it rehydrates it into a fully fledge React
-          PWA
+          At build time, GatsbyJS takes all your react
+          component with all the needed data and generates
+          static HTML, JavaScript, and CSS files. Once the
+          website is fully loaded it rehydrates it into a
+          fully fledge React PWA
         </p>
         <h3 className="font-heading text-black text-xl font-display font-semibold leading-tight mb-5 py-2">
           A unified Data layer using GraphQL
         </h3>
         <p className="mb-4 leading-normal">
-          GatsbyJS unifies all data sources into one layer using{' '}
+          GatsbyJS unifies all data sources into one layer
+          using{' '}
           <a
             className="font-semibold no-underline border-blue-lighter border-b-4 text-black"
             href="https://graphql.org/learn/"
@@ -339,8 +422,9 @@ const ReactAndGatsbyLandingPage = () => (
           A rich plugin ecosystem
         </h3>
         <p className="mb-4 leading-normal">
-          With GatsbyJS's flexible plugin system, it lets you bring your data
-          source. From anywhere like CMS, database, or filesystem and makes it
+          With GatsbyJS's flexible plugin system, it lets
+          you bring your data source. From anywhere like
+          CMS, database, or filesystem and makes it
           queriable through GraphQL.
         </p>
       </div>
@@ -350,19 +434,30 @@ const ReactAndGatsbyLandingPage = () => (
         </h2>
         <div>
           <p className="mb-4 leading-normal">
-            This course Guides you to port your existing create-react-app
-            project to GatsbyJS by reusing as much code from the project as you
-            can. It explains the difference between the two. The course also
-            helps you to understand GatsbyJS and how it works, so if you want to
-            learn GatsbyJS, this course is for you. If this is your first
-            working with React in general, then this course might not be a good
-            fit for you.
+            This course Guides you to port your existing
+            create-react-app project to GatsbyJS by reusing
+            as much code from the project as you can. It
+            explains the difference between the two. The
+            course also helps you to understand GatsbyJS and
+            how it works, so if you want to learn GatsbyJS,
+            this course is for you. If this is your first
+            working with React in general, then this course
+            might not be a good fit for you.
           </p>
           <ul>
-            <li>Front End devs looking to understand the JAMstack</li>
-            <li>JS Developers looking to advance in their career</li>
+            <li>
+              Front End devs looking to understand the
+              JAMstack
+            </li>
+            <li>
+              JS Developers looking to advance in their
+              career
+            </li>
             <li>Wordpress Developer moving to GatsbyJS</li>
-            <li>Anyone who wants to get better at GatsbyJS and React</li>
+            <li>
+              Anyone who wants to get better at GatsbyJS and
+              React
+            </li>
           </ul>
         </div>
       </div>
@@ -372,8 +467,9 @@ const ReactAndGatsbyLandingPage = () => (
         </h2>
         <div>
           <p className="mb-4 leading-normal">
-            This course will guide through the process of porting a
-            create-react-app to GatsbyJS. It will cover topics like.
+            This course will guide through the process of
+            porting a create-react-app to GatsbyJS. It will
+            cover topics like.
           </p>
 
           <ul className="mb-4 leading-normal">
@@ -385,7 +481,64 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 20 20"
                 >
                   <g fill="none" fillRule="evenodd">
-                    <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>Setup a Gatsby project</span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>Create static pages in Gatsby</span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
                     <polyline
                       stroke="#ffffff"
                       strokeLinecap="round"
@@ -397,8 +550,8 @@ const ReactAndGatsbyLandingPage = () => (
                 </svg>
               </span>
               <span>
-                Difference in project structure between create-react-app and
-                GatsbyJS
+                Create static pages programatically in
+                Gatsby
               </span>
             </li>
             <li className="flex items-start mb-4">
@@ -409,7 +562,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 20 20"
                 >
                   <g fill="none" fillRule="evenodd">
-                    <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
                     <polyline
                       stroke="#ffffff"
                       strokeLinecap="round"
@@ -421,8 +579,7 @@ const ReactAndGatsbyLandingPage = () => (
                 </svg>
               </span>
               <span>
-                Use GatsbyJS plugins to inject static data into your app instead
-                of calling service directly
+                Create a Layout component in Gatsby
               </span>
             </li>
             <li className="flex items-start mb-4">
@@ -433,28 +590,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 20 20"
                 >
                   <g fill="none" fillRule="evenodd">
-                    <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
-                    <polyline
-                      stroke="#ffffff"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      points="6 10 8.667 12.667 14 7.333"
-                    ></polyline>
-                  </g>
-                </svg>
-              </span>
-              <span>Transform React Route Components to GatsbyJS pages</span>
-            </li>
-            <li className="flex items-start mb-4">
-              <span className="mr-4 mt-1">
-                <svg
-                  className="h-5 w-5 block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <g fill="none" fillRule="evenodd">
-                    <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
                     <polyline
                       stroke="#ffffff"
                       strokeLinecap="round"
@@ -466,7 +607,7 @@ const ReactAndGatsbyLandingPage = () => (
                 </svg>
               </span>
               <span>
-                How to use React features like Context and hooks with GatsbyJS
+                Create client side routes in Gatsby
               </span>
             </li>
             <li className="flex items-start mb-4">
@@ -477,7 +618,12 @@ const ReactAndGatsbyLandingPage = () => (
                   viewBox="0 0 20 20"
                 >
                   <g fill="none" fillRule="evenodd">
-                    <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
                     <polyline
                       stroke="#ffffff"
                       strokeLinecap="round"
@@ -488,7 +634,171 @@ const ReactAndGatsbyLandingPage = () => (
                   </g>
                 </svg>
               </span>
-              <span>How to dynamically load data at runtime </span>
+              <span>Explaining Gatsby plugins</span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>
+                Breaking down CRA routes into pages(static
+                and client side)
+              </span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>
+                Deconstructing Content transformation in a
+                CRA app and map it to Gatsby plugins
+              </span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>
+                Break down the content part in a CRA
+              </span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>Add a CSS preprocessor in Gatsby</span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>Use React Context with Gatsby</span>
+            </li>
+            <li className="flex items-start mb-4">
+              <span className="mr-4 mt-1">
+                <svg
+                  className="h-5 w-5 block"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <g fill="none" fillRule="evenodd">
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="10"
+                      fill="#2779bd"
+                    ></circle>
+                    <polyline
+                      stroke="#ffffff"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      points="6 10 8.667 12.667 14 7.333"
+                    ></polyline>
+                  </g>
+                </svg>
+              </span>
+              <span>Gatsby gotcha</span>
             </li>
           </ul>
         </div>
@@ -503,9 +813,9 @@ const ReactAndGatsbyLandingPage = () => (
           <h2 className="text-center font-heading text-4xl font-display font-semibold leading-tight mb-10">
             Videos {`&&`} Modules
           </h2>
-          <div className="text-2xl flex flex-wrap justify-center">
+          <div className="text-2xl">
             <div className="sm:p-10">
-              <h3 className="mb-4 text-center">The basic</h3>
+              <h3 className="mb-8">Main Modules</h3>
               <ul className="mb-4 leading-normal">
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -515,7 +825,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -526,7 +841,9 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Bootstrap the simplest GatsbyJS project</span>
+                  <span>
+                    Bootstrap the simplest GatsbyJS project
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -536,7 +853,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -547,7 +869,9 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Port React component to GatsbyJS pages</span>
+                  <span>
+                    Create a Static page in Gatsby
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -557,7 +881,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -568,7 +897,10 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Combine mutiple data sources using plugins</span>
+                  <span>
+                    Combine mutiple data sources using
+                    plugins
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -578,7 +910,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -589,7 +926,10 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Routing in GatsbyJS</span>
+                  <span>
+                    Create static pages programatically in
+                    Gatsby
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -599,7 +939,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -610,7 +955,9 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Handling state in GatsbyJS</span>
+                  <span>
+                    Create client only pages in Gatsby
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -620,7 +967,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -631,7 +983,9 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Handling Environment Variables in GatsbyJS</span>
+                  <span>
+                    Create a Layout component in Gatsby
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -641,7 +995,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -652,12 +1011,407 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Advanced customizations</span>
+                  <span>Add a plugin to a Gatsby</span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>How does a source plugin work</span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    How does a transformer plugin work
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Extract Static pages from a CRA project
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Extract Client side pages from a CRA
+                    project
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Transform data at build instead of
+                    runtime using a transformer plugin
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Load content at build time using a
+                    source plugin
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Load dynamic content at runtime in
+                    Gatsby
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Add a CSS preprocessor in Gatsby
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>Use React Context in Gatsby</span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Fix the Context mounting issue in Gatsby
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Fix the window object issue in Gatsby
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Optimize images using
+                    gatsby-transformer-sharp and
+                    gatsby-images
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Build and serve the production ready
+                    project locally
+                  </span>
+                </li>
+                <li className="flex items-start mb-4">
+                  <span className="mr-4 mt-1">
+                    <svg
+                      className="h-5 w-5 block"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <g fill="none" fillRule="evenodd">
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
+                        <polyline
+                          stroke="#ffffff"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          points="6 10 8.667 12.667 14 7.333"
+                        ></polyline>
+                      </g>
+                    </svg>
+                  </span>
+                  <span>
+                    Deploy a Gatsby project to Netlify
+                  </span>
                 </li>
               </ul>
             </div>
             <div className="sm:p-10">
-              <h3 className="mb-4 text-center">Putting everything together</h3>
+              <h3 className="mb-8">Bonus Content</h3>
               <ul>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -667,7 +1421,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -678,7 +1437,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Load Data using GraphQL</span>
+                  <span>Add authentication in Gatsby</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -688,7 +1447,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -699,7 +1463,7 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Wrap all GatsbyJS Component in a Context</span>
+                  <span>Use Apollo GraphQL in Gatsby</span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -709,7 +1473,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -720,7 +1489,9 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Use React hooks with GatsbyJS</span>
+                  <span>
+                    Trigger build on content change
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -730,7 +1501,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -741,7 +1517,9 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Load dynamic graphql data in GatsbyJS</span>
+                  <span>
+                    Use Gatsby cloud preview feature
+                  </span>
                 </li>
                 <li className="flex items-start mb-4">
                   <span className="mr-4 mt-1">
@@ -751,7 +1529,12 @@ const ReactAndGatsbyLandingPage = () => (
                       viewBox="0 0 20 20"
                     >
                       <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
+                        <circle
+                          cx="10"
+                          cy="10"
+                          r="10"
+                          fill="#2779bd"
+                        ></circle>
                         <polyline
                           stroke="#ffffff"
                           strokeLinecap="round"
@@ -762,28 +1545,9 @@ const ReactAndGatsbyLandingPage = () => (
                       </g>
                     </svg>
                   </span>
-                  <span>Use GatsbyJS without GraphQL</span>
-                </li>
-                <li className="flex items-start mb-4">
-                  <span className="mr-4 mt-1">
-                    <svg
-                      className="h-5 w-5 block"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <g fill="none" fillRule="evenodd">
-                        <circle cx="10" cy="10" r="10" fill="#2779bd"></circle>
-                        <polyline
-                          stroke="#ffffff"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          points="6 10 8.667 12.667 14 7.333"
-                        ></polyline>
-                      </g>
-                    </svg>
+                  <span>
+                    Use Gatsby cloud for incremental build
                   </span>
-                  <span>Build an deploy a GatsbyJS project</span>
                 </li>
               </ul>
             </div>
@@ -798,7 +1562,10 @@ const ReactAndGatsbyLandingPage = () => (
         </h2>
         <div className="flex flex-wrap imtes-center justify-center">
           <div className="sm:w-1/3 w-full">
-            <img src="/khaled-garbaya.png" alt="Khaled Garbaya's avatar" />
+            <img
+              src="/khaled-garbaya.png"
+              alt="Khaled Garbaya's avatar"
+            />
           </div>
           <div className="sm:w-2/3 w-full p-4">
             <p className="mb-4 leading-normal">
@@ -809,13 +1576,16 @@ const ReactAndGatsbyLandingPage = () => (
               >
                 Khaled Garbaya
               </a>{' '}
-              I am a long-time contributor to GatsbyJS. I love the framework and
-              been working with it since pre v1 version. I work on a variety of
-              projects with different frameworks and environments, not only on
-              the frontend and browsers but also on the server-side,
-              command-line tools, and other environments capable of running
-              JavaScript. I love to share my knowledge through e-books and
-              videos. you can check out some of my work{' '}
+              I am a long-time contributor to GatsbyJS. I
+              love the framework and been working with it
+              since pre v1 version. I work on a variety of
+              projects with different frameworks and
+              environments, not only on the frontend and
+              browsers but also on the server-side,
+              command-line tools, and other environments
+              capable of running JavaScript. I love to share
+              my knowledge through e-books and videos. you
+              can check out some of my work{' '}
               <a
                 className="font-semibold no-underline border-blue-lighter border-b-4 text-black"
                 href="https://k4d.dev/courses/"
