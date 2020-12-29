@@ -1,2 +1,4 @@
 # Redirect default Netlify subdomain to primary domain
 https://learnjamstack.netlify.com/* https://learnjamstack.com/:splat 301!
+
+/jamstack-in-action https://realworldjamstack.dev/
